@@ -4,7 +4,7 @@ from json import loads as load_json_str
 from typing import List, Union, Dict
 from datetime import datetime
 from fake_useragent import UserAgent
-from browser_cookie3 import load
+from browser_cookie3 import firefox
 
 # local
 from .constants.templates import HACKERRANK_CONTEST_LINK, HACKERRANK_LEADERBOARD_LINK
@@ -34,7 +34,7 @@ class HackerrankAPI:
         self.headers = {
             "User-Agent": UserAgent().firefox
         }
-        self.cookies = load()
+        self.cookies = firefox()
 
     def render_leaderboard_link(self, offset, limit):
         """

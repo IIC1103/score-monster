@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "score-monster"
+version = "0.1.0"
+description = ""
+authors = ["Nicolas Quiroz <naquiroz@uc.cl>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.23.0"
+gspread = "^3.6.0"
+oauth2client = "^4.1.3"
+fake-useragent = "^0.1.11"
+browser-cookie3 = "^0.11.1"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^3.8.3"
+pylint = "^2.5.3"
+black = "^19.10b0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
