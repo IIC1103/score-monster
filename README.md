@@ -98,7 +98,7 @@ The first key should always be `sheets` .
 
 ## Usage
 
-1. **Log in to Hackerrank either in firefox.** Really important! If you don't do this, the program will get stuck. You need to have firefox for this to work.
+1. **Log in to Hackerrank in firefox.** Really important! If you don't do this, the program will get stuck. You need to have firefox for this to work.
 2. Simply run the two following lines:
 
 
