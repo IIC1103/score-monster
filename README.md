@@ -25,7 +25,7 @@ Install dependencies:
 
 ## Basic Configuration
 
-1. [Obtain OAuth2 credentials from Google Developers Console](https://gspread.readthedocs.io/en/latest/oauth2.html#using-signed-credentials). **Follow instructions of the site until Step 4.**
+1. [Obtain OAuth2 credentials from Google Developers Console](https://gspread.readthedocs.io/en/latest/oauth2.html#using-signed-credentials). **Follow instructions of the site until Step 5.**
 
 2. Rename the credentials to `credentials.json`
 
