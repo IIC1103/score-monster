@@ -8,7 +8,7 @@ Special thanks to [@mjjunemann](https://github.com/mjjunemann), [@fvr1](https://
 
 ## Installation
 
-Requirements: Python 3.6+, [`pipenv`](https://github.com/pypa/pipenv).
+Requirements: Python 3.6+, [`poetry`](https://python-poetry.org/).
 
 ``` sh
 git clone https://github.com/IIC1103/score-monster.git
