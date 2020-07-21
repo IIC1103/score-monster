@@ -96,5 +96,5 @@ class Mediator:
                 )
                 hackers = hackerrank_API.get_leadearboard()
 
-                # Update the scores
+                # Update the scoresaspodksad
                 sheet.update_scores(hackers, column=j)
